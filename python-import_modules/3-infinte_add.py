@@ -2,6 +2,6 @@
 import sys
 if __name__ == "__main__":
     s = 0
-    for i in sys.argv:
+    for i in range(1, len(sys.argv)):
         s = s + int(i)
     print(s)
