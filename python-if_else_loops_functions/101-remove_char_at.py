@@ -6,4 +6,3 @@ def remove_char_at(str, n):
         if i != n:
             temp += str[i]
     return temp
-print(remove_char_at('chicago', 3))
