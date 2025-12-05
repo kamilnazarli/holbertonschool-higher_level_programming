@@ -6,3 +6,4 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(matrix[row][el]))
             else:
                 print("{:d}".format(matrix[row][el]), end = " ")
+        print("")
