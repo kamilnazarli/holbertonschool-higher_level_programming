@@ -14,5 +14,5 @@ def safe_print_list(my_list=[], x=0):
         print(sum)
         return count
     else:
-        return 0
         print()
+        return 0
