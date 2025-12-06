@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    temp = []
+    sum = 0
     try:
         for i in range(x):
-            temp.append(str(my_list[i]))
+            sum = sum * 10 + my_list[i]
     except IndexError:
-        temp.clear()
-        for i in range(my_list):
-            temp.append(str(i))
-    return "".join(temp)
+        sum = 0
+        for i in range(len(my_list)):
+            sum = sum * 10 + my_list[i]
+    return sum
