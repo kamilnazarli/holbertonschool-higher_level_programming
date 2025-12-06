@@ -7,7 +7,7 @@ def safe_print_list_integers(my_list=[], x=0):
                 sum = sum * 10 + my_list[i]
                 count += 1
             except IndexError:
-                continue
+                break
             except TypeError:
                 continue
         print("{:d}".format(sum))
