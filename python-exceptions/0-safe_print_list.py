@@ -10,4 +10,5 @@ def safe_print_list(my_list=[], x=0):
         for i in my_list:
             sum = sum * 10 + i
             count += 1
-    return f"{sum}\n{count}"
+    print(sum)
+    return count
