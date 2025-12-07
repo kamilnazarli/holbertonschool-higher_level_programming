@@ -15,7 +15,7 @@ def roman_to_int(roman_string):
             if i == len(roman_string) - 1:
                 sum = sum + roman_dict.get(roman_string[i])
             elif roman_dict.get(roman_string[i]) >=\
-                roman_dict.get(roman_string[i + 1]):
+                        roman_dict.get(roman_string[i + 1]):
                 sum = sum + roman_dict.get(roman_string[i])
             else:
                 sum = sum - roman_dict.get(roman_string[i])
