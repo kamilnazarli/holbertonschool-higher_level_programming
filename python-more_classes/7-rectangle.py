@@ -23,7 +23,7 @@ class Rectangle:
         temp = ""
         for i in range(self.height):
             for j in range(self.width):
-                temp += self.print_symbol
+                temp += str(self.print_symbol)
             if i != self.height - 1:
                 temp += "\n"
         return temp
