@@ -4,7 +4,7 @@ This module creates a function to check instance
 """
 
 
-def is_same_class(obj, a_class):
+def is_kind_of_class(obj, a_class):
     """
     This method checks an object whether
     it is an instance of a specific class
