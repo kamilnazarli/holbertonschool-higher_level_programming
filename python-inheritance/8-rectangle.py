@@ -4,6 +4,8 @@ This module creates a function to check instance
 """
 
 
+BaseGeometry = __import__('7-base_geometry.py').BaseGeometry
+
 class Rectangle(BaseGeometry):
     """
     This class creates a rectangle with its width and height.
