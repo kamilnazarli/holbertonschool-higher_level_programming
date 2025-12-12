@@ -1,10 +1,16 @@
 #!/usr/bin/python3
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
+"""
+This module creates a function to check instance
+"""
+
+
 class Rectangle(BaseGeometry):
     """
     This class creates a rectangle with its width and height.
     it inherits from base geometry class.
     """
+
     def __init__(self, width, height):
         self.integer_validator("width", width)
         self.integer_validator("height", height)
