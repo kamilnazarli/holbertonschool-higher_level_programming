@@ -21,5 +21,5 @@ class Student:
             temp = {}
             for i in attrs:
                 if self.__dict__.get(i) is not None:
-                    temp.update({i : self.__dict__.get(i)})
+                    temp.update({i: self.__dict__.get(i)})
             return temp
