@@ -5,6 +5,11 @@ This module defines a function that adds attribute
 
 
 def add_attribute(obj, name, val):
+    """
+    This function adds attribute to the object
+    if it is possible
+    """
+
     if type(obj).__module__ != 'builtins':
     # if not isinstance(obj, type) and type(obj).__module__ != 'builtins':
         obj.name = val
