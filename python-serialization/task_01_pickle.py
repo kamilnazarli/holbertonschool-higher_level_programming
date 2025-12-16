@@ -32,4 +32,4 @@ class CustomObject:
                 res = pickle.load(f)
         except:
             return None
-        return res
+        return cls
