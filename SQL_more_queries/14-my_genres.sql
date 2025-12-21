@@ -1,5 +1,5 @@
 -- To lists all genres of DEXTER
-SELECT tv_shows.title AS name
+SELECT tv_genres.name AS name
 FROM tv_shows
 INNER JOIN tv_show_genres
 ON tv_shows.id = tv_show_genres.show_id
