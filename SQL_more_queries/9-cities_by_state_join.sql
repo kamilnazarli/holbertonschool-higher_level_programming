@@ -1,6 +1,6 @@
 -- To list all cities contained in a database
 SELECT cities.id, cities.name, states.name
-FROM states
-INNER JOIN cities
+FROM cities
+INNER JOIN states
 ON cities.id = states.id
 ORDER BY cities.id;
